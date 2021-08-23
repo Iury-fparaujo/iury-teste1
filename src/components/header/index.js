@@ -6,7 +6,7 @@ export const header = () => {
             $('.mini-cart').css('right', "0vw") 
             setTimeout(() => {
                 $('.cart-upside span').css('display', 'block')   
-            }, 1000);
+            }, 500);
         })
 
         $('.cart-upside span').on('click', () => {
