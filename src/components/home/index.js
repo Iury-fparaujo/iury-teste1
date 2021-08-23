@@ -24,7 +24,6 @@ export const home = () => {
                 console.log(el.id)
                 if(el.id === key){
                     
-                    console.log(el.id)
                 }                
             })
     
