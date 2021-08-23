@@ -76,6 +76,9 @@
                     height: auto;
                 }
                 .informacoes-produto{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
                     p{
                         font-size: 0.75em;
                     }
