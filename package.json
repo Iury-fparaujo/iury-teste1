@@ -3,7 +3,7 @@
     "storeName": "iury_loja",
     "vtexCheckout": "6",
     "vtexCheckoutConfirmation": "4",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Project name_project",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack --config ./config/webpack.config.dev.js --display-error-details --watch",
