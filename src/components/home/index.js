@@ -52,6 +52,7 @@ export const home = () => {
                     console.log(carrinho[i])
                     atualizaCarrinho()  
                 }     
+       
             })
 
             //Animação que abre a sidebar do carrinho
