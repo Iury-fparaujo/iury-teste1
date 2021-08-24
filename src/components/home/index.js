@@ -62,6 +62,7 @@ export const home = () => {
              }, 500);         
     
         })
+        
     
         //Animação que fecha a sidebar do carrinho
         $('.cart-upside span').on('click', () => {
