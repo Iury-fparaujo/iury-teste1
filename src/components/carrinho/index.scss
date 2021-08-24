@@ -71,11 +71,17 @@
                 justify-content: space-between;
                 padding: 10px;
                 img{
-                    width: auto;
+                    width: 40%;
+                    height: auto;
                 }
                 .informacoes-produto{
+                    margin-left: 15%;
                     display: flex;
                     flex-direction: column;
+                    justify-content: space-between;
+                    p{
+                        font-size: 0.75em;
+                    }
                 }
             }
         }
