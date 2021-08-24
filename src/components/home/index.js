@@ -21,7 +21,6 @@ export const home = () => {
         $('.btn-teste').click(function(){     
             var key = parseInt($(this).attr('data-id'))
             console.log(key)
-
             
             const atualizaCarrinho = () => {
                 $('.cart-middle').find('ul').html('')
@@ -63,7 +62,6 @@ export const home = () => {
     
         })
         
-    
         //Animação que fecha a sidebar do carrinho
         $('.cart-upside span').on('click', () => {
             $('.mini-cart').css('right', "-20vw")
